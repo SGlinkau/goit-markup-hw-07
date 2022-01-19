@@ -5,6 +5,10 @@ body {
   font-weight: 500;
 }
 
+.menu ul{
+  list-style: none;
+}
+
 .navs-link {
   text-decoration: none;
   color: #212121;
@@ -21,7 +25,7 @@ body {
 
 .contacts-link {
   text-decoration: none;
-  color: #212121;
+  color: #757575;
   font-size: 14px;  
   line-height: 1,142;  
 }
@@ -33,11 +37,19 @@ body {
   line-height: 1,142;    
 }
 
-.kontener h2{
+.kontener{
+  background: #2F303A;
+}
+
+.kontener h1{
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1,363;
+  color: #FFFFFF;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .button {
@@ -74,11 +86,11 @@ body {
   color: #FFFFFF;
 }
 
-ul{
+.paragrafy ul{
   list-style-type: none;
 }
 
-ul h2{
+.paragrafy ul h2{
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -88,7 +100,7 @@ ul h2{
   color: #212121;  
 }
 
-li{
+#paragrafy li{
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -148,4 +160,38 @@ li{
   line-height: 1,875;
   letter-spacing: 0.03em;
   color: #757575; 
+}
+
+.stopka{
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  background: #2F303A;
+}
+
+.adress{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1,714;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;  
+}
+
+.adress .contacts-link{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1,714;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.adress .contacts-link:hover{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1,714;
+  letter-spacing: 0.03em;
+  color: #2196F3;
 }
