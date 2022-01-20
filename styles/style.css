@@ -5,6 +5,25 @@ body {
   font-weight: 500;
 }
 
+.logo{
+  font-family: Raleway;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1,192;
+  letter-spacing: 0.03em;
+  color: #2196F3;
+}
+
+.logo-part2{
+  color: black;
+}
+
+.logo-part2ft{
+  color: white;
+}
+
 .menu ul{
   list-style: none;
 }
@@ -116,6 +135,10 @@ body {
   line-height: 1,166;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.team{
+  background: #F5F4FA;
 }
 
 .team h2{
