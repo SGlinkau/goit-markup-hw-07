@@ -398,19 +398,17 @@ ol {
   margin-top: 9px;
 }
 
+.adress-link:hover {
+  color: #2196f3;
+}
+
 /* =====END OF FOOTER===== */
 
 /* =====END OF SITE INDEX.HTML===== */
 
 /* =====SITE PORTFOLIO.HTML===== */
 
-/* FILTER IN "FILTRY" */
-
-.filtry {
-  display: flex;
-  justify-content: center;
-  margin-top: 94px;
-}
+/* FILTERS IN "FILTRY" */
 
 .button-port {
   margin-right: 8px;
@@ -428,12 +426,9 @@ ol {
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.03em;
+  padding: 6px 22px 6px 22px;
 
   color: #212121;
-}
-
-.button-port a {
-  padding: 6px 22px 6px 22px;
 }
 
 .button-port:hover {
@@ -442,4 +437,61 @@ ol {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+}
+
+.filtry-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+
+/* END OF FILTERS IN "FILTRY" */
+
+/* PROJECTS "PROJEKTY */
+
+.projects-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 94px;
+}
+
+.projects-list-item {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+
+.projects-list-item h4 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+
+  padding-top: 20px;
+  padding-left: 24px;
+  padding-bottom: 4px;
+
+  color: #212121;
+}
+
+.projects-list-item h5 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+
+  padding-left: 24px;
+  padding-bottom: 20px;
+
+  color: #757575;
 }
