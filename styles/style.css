@@ -176,6 +176,11 @@ ol {
 .paragraphs {
   display: flex;
   justify-content: space-around;
+  padding-top: 94px;
+}
+
+.paragraphs:not(:last-child) {
+  margin-right: 30px;
 }
 
 .paragraphs-item h5 {
@@ -199,4 +204,175 @@ ol {
   letter-spacing: 0.03em;
 
   color: #757575;
+}
+
+/* END OF ADVANTAGES "ATUTY" */
+
+/* WWD "CZYM SIĘ ZAJMUJEMY" */
+
+.WWD h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+
+.WWDpictures {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 94px;
+}
+
+/* END OF WWD "CZYM SIĘ ZAJMUJEMY" */
+
+/* OUR TEAM "NASZ ZESPÓŁ" */
+
+.ourteam {
+  background: #f5f4fa;
+
+  padding-top: 94px;
+}
+
+.ourteam h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+
+  padding-bottom: 50px;
+}
+
+.team {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 94px;
+}
+
+.team h4 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  padding-top: 30px;
+
+  color: #212121;
+}
+
+.team h5 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  padding-top: 10px;
+  padding-bottom: 30px;
+
+  color: #757575;
+}
+
+.Piotrek {
+  background: #ffffff;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.Zaneta {
+  background: #ffffff;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.Mariusz {
+  background: #ffffff;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.Patryk {
+  background: #ffffff;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+/* END OF OUR TEAM "NASZ ZESPÓŁ" */
+
+/* =====END OF MAIN===== */
+
+/* =====FOOTER===== */
+
+.footer {
+  background: #2f303a;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.logob {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+.logoft {
+  color: #2196f3;
+}
+
+.logo-white {
+  color: #ffffff;
+}
+
+.adress {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+
+.adress-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+
+  margin-top: 9px;
 }
