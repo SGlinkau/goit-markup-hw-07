@@ -24,6 +24,13 @@ ol {
   width: 1170px;
 }
 
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  align-items: center;
+  margin: 0 auto;
+}
+
 /* =====SITE STUFF (INDEX.HTML)===== */
 
 /* =====HEADER===== */
@@ -130,11 +137,11 @@ ol {
 
 /* CONTAINER */
 
-.container {
+.order {
   background: #2f303a;
 }
 
-.container h1 {
+.order h1 {
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
