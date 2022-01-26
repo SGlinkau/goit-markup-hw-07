@@ -21,7 +21,7 @@ ol {
 }
 
 .site {
-  width: 1200px;
+  width: 1170px;
 }
 
 /* =====SITE STUFF (INDEX.HTML)===== */
@@ -41,7 +41,7 @@ ol {
 
   justify-content: flex-start;
 
-  margin-left: 215px;
+  /* margin-left: 215px; */
 }
 
 .logohd {
@@ -56,6 +56,7 @@ ol {
 
 .menu {
   height: 80px;
+  width: 1170px;
   display: flex;
   background: #ffffff;
   justify-content: space-around;
@@ -121,10 +122,6 @@ ol {
   color: #2196f3;
 }
 
-.contacts-link:last-child {
-  margin-right: 227px;
-}
-
 /* END OF CONTACTS LINKS IN HEADER MENU */
 
 /* =====END OF HEADER===== */
@@ -134,7 +131,6 @@ ol {
 /* CONTAINER */
 
 .container {
-  width: 1600px;
   background: #2f303a;
 }
 
