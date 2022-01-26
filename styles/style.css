@@ -31,7 +31,7 @@ ol {
   margin: 0 auto;
 }
 
-/* =====SITE STUFF (INDEX.HTML)===== */
+/* =====SITE INDEX.HTML===== */
 
 /* =====HEADER===== */
 
@@ -150,6 +150,9 @@ ol {
 }
 
 .order h1 {
+  width: 696px;
+  height: 120px;
+
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
@@ -158,6 +161,8 @@ ol {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
 
   color: #ffffff;
 }
@@ -171,6 +176,7 @@ ol {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: 0px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
@@ -390,4 +396,50 @@ ol {
   color: rgba(255, 255, 255, 0.6);
 
   margin-top: 9px;
+}
+
+/* =====END OF FOOTER===== */
+
+/* =====END OF SITE INDEX.HTML===== */
+
+/* =====SITE PORTFOLIO.HTML===== */
+
+/* FILTER IN "FILTRY" */
+
+.filtry {
+  display: flex;
+  justify-content: center;
+  margin-top: 94px;
+}
+
+.button-port {
+  margin-right: 8px;
+
+  cursor: pointer;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: 0px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.button-port a {
+  padding: 6px 22px 6px 22px;
+}
+
+.button-port:hover {
+  background: #2196f3;
+  color: #ffffff;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
