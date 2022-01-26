@@ -35,6 +35,10 @@ ol {
 
 /* =====HEADER===== */
 
+.header {
+  padding: 32px 0px 32px 0px;
+}
+
 /* WEB STUDIO LOGO IN HEADER */
 
 .logoa {
@@ -62,8 +66,6 @@ ol {
 /* MENU IN HEADER */
 
 .menu {
-  height: 80px;
-  width: 1170px;
   display: flex;
   background: #ffffff;
   justify-content: space-around;
@@ -332,6 +334,8 @@ ol {
 
 .footer {
   background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer a {
@@ -362,6 +366,8 @@ ol {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
+
+  padding-top: 20px;
 
   color: #ffffff;
 }
