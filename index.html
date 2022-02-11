@@ -20,12 +20,12 @@
         <header class="header">
         <div class="container">
         <div class="menu">
-            <a href="https://sglinkau.github.io/goit-markup-hw-04/" class="logoa"><span class="logohd">Web</span><span class="logo-black">Studio</span></a>
+            <a href="https://sglinkau.github.io/goit-markup-hw-05/" class="logoa"><span class="logohd">Web</span><span class="logo-black">Studio</span></a>
             <nav class="menu-nav">
                 <ul class="menu-nav-list">
-                    <li class="menu-nav-item"><a href="https://sglinkau.github.io/goit-markup-hw-04/">Agencja</a></li>
-                    <li class="menu-nav-item"><a href="portfolio.html">Portfolio</a></li>
-                    <li class="menu-nav-item"><a href="https://sglinkau.github.io/goit-markup-hw-04/">Kontakt</a></li>
+                    <li><a class="menu-nav-item active-link" href="https://sglinkau.github.io/goit-markup-hw-05/">Agencja</a></li>
+                    <li><a class="menu-nav-item" href="portfolio.html">Portfolio</a></li>
+                    <li><a class="menu-nav-item" href="https://sglinkau.github.io/goit-markup-hw-05/">Kontakt</a></li>
                 </ul>
             </nav>
                 <a href="mailto:info@devstudio.com" class="contacts-link" class="email"><svg class="ico-email" width="16px" height="12px"><use href="images/sprite.svg#icon-envelope"></use></svg>info@devstudio.com</a>
@@ -41,7 +41,18 @@
             <div class="container">
             <div class="order">
                 <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-                <button type="button" class="button">Zamów usługę</button>
+                <button type="button" class="button" data-modal-open>Zamów usługę</button>
+                <div class="backdrop is-hidden" data-modal>
+                    <div class="modal-window">
+                        <img class="niespodzianka" src="./images/Serah.png">
+                        <span class="niespodzianka-text">Odnalazłeś mnie Sera! Wypije Twe zdrowie!</span>
+                        <button class="close-btn" data-modal-close>
+                        <svg class="closte-btn-ico">
+                            <use href="images/sprite.svg#icon-zamykacz"></use>
+                         </svg>
+                        </button>
+                    </div>
+                </div>
             </div>
             </div>
             </section>
@@ -87,9 +98,9 @@
                 <div class="container">
                 <h2>Czym się zajmujemy</h2>
                     <div class="WWDpictures">
-                        <img src="./images/US1.jpg" alt="WWDP1" class="WWDpic" id="us1">
-                        <img src="./images/US2.jpg" alt="WWDP2" class="WWDpic" id="us2">
-                        <img src="./images/US3.jpg" alt="WWDP3" id="us3">
+                        <div class="WWDpictures-desc"><img src="./images/US1.jpg" alt="WWDP1" class="WWDpic" id="us1"><h3 class="WWDpictures-desc-back">APLIKACJE KOMPUTEROWE</h3></div>
+                        <div class="WWDpictures-desc"><img src="./images/US2.jpg" alt="WWDP2" class="WWDpic" id="us2"><h3 class="WWDpictures-desc-back">APLIKACJE MOBILNE</h3></div>
+                        <div class="WWDpictures-desc"><img src="./images/US3.jpg" alt="WWDP3" class="WWDpic" id="us3"><h3 class="WWDpictures-desc-back">ROZWIĄZANIA GRAFICZNE</h3></div>
                     </div>
                 </div>
             </div>
@@ -194,6 +205,7 @@
             </div>
         </footer>
 
+        <script src="./js/modal.js"></script>
     </body>
 
     </html>
