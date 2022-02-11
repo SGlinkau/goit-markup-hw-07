@@ -108,7 +108,7 @@ ol {
   left: 0;
 }
 
-.menu-nav .active-link a {
+.menu-nav .active-link {
   color: #2196f3;
 }
 
