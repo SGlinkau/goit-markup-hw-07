@@ -44,13 +44,40 @@
                 <button type="button" class="button" data-modal-open>Zamów usługę</button>
                 <div class="backdrop is-hidden" data-modal>
                     <div class="modal-window">
-                        <img class="niespodzianka" src="./images/Serah.png">
-                        <span class="niespodzianka-text">Odnalazłeś mnie Sera! Wypije Twe zdrowie!</span>
                         <button class="close-btn" data-modal-close>
                         <svg class="closte-btn-ico">
                             <use href="images/sprite.svg#icon-zamykacz"></use>
                          </svg>
                         </button>
+                        <div class="form">
+                            <form name="form_for_offer" novalidate>
+                                <h4>Zostaw swoje dane w formularzu poniżej</h4>
+                                <div class="form-inputs">
+                                    <label class="form-label">
+                                        <span class="label-text">Imie</span>
+                                        <input type="text" class="form-input" class="form-input-imie" name="Imie" placeholder=""/>
+                                    </label>
+                                    <label class="form-label">
+                                        <span class="label-text">Telefon</span>
+                                        <input type="text" class="form-input" name="Telefon" class="form-input-telefon" placeholder=""/>
+                                    </label>
+                                    <label class="form-label">
+                                        <span class="label-text">Email</span>
+                                        <input type="email" class="form-input" name="Email" class="form-input-telefon" placeholder=""/>
+                                    </label>
+                                    <label class="form-label">
+                                        <span class="label-text">Komentarz</span>
+                                        <textarea class="form-textarea" rows="5" style="resize: none;" name="Komentarz" placeholder="Wprowadź tekst"></textarea>
+                                    </label>
+                                </div>
+                                <div class="form-checkbox">
+                                    <label class="checkbox">
+                                        <input type="checkbox" class="form-input-zgoda" name="Zgoda"/><span class="checkbox-text">Oświadczam iż akceptuję <a href="https://www.sejm.gov.pl/prawo/konst/polski/kon1.htm">Regulamin</a> i <a href="https://uodo.gov.pl/pl/file/727">Politykę Prywatności.</a></span>
+                                    </label>
+                                </div>
+                                    <button class="form_button" type="submit">Wyślij</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -199,6 +226,17 @@
                     <li class="social-media-list-item"><a href="#" class="social-media-list-link"><svg class ="social-media-list-icon"><use href="images/sprite.svg#icon-facebook"></use></svg></a></li>
                     <li class="social-media-list-item"><a href="#" class="social-media-list-link"><svg class ="social-media-list-icon"><use href="images/sprite.svg#icon-linkedin"></use></svg></a></li>
                 </ul>
+            </div>
+            </div>
+            <div class="footer-newsletter">
+            <div class="footer-form">
+                <form name="Newsletter-sign" validate>
+                    <label class="footer-label">
+                        <h3 class="footer-label-text">ZAPIS SIĘ DO NEWSLETTERA</h3>
+                        <input type="email" class="footer-input-email" name="E-mail" placeholder="E-mail" />
+                    </label>
+                    <button type="submit" class="footer-button"><span class="footer-button-text">Zapisz się</span><svg class="Submit-ico" width="24px" height="24px"><use href="images/sprite.svg#icon-form-footer"></use></svg></button>
+                </form>
             </div>
             </div>
             </div>
