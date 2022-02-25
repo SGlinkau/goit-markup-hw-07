@@ -102,11 +102,11 @@
 .social-list-icon {
   width: 20px;
   height: 20px;
-}
 
-.social-list-icon:hover,
-.social-list-icon:focus {
-  fill: #fff;
+  &:hover,
+  &:focus {
+    fill: #fff;
+  }
 }
 
 .social-list-link {
@@ -119,10 +119,10 @@
   background-color: #fff;
   fill: #afb1b8;
   border-radius: 50%;
-}
 
-.social-list-link:hover,
-.social-list-link:focus {
-  background-color: #2196f3;
-  fill: #fff;
+  &:hover,
+  &:focus {
+    background-color: #2196f3;
+    fill: #fff;
+  }
 }

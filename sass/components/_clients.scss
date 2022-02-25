@@ -28,11 +28,11 @@
   border-style: solid;
   border-color: #afb1b8;
   fill: #afb1b8;
-}
 
-.clients-list-logo:hover,
-.clients-list-logo:focus {
-  border-color: #2196f3;
-  fill: #2196f3;
-  cursor: pointer;
+  &:hover,
+  &:focus {
+    border-color: #2196f3;
+    fill: #2196f3;
+    cursor: pointer;
+  }
 }
