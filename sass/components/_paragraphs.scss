@@ -1,0 +1,44 @@
+.paragraphs {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 94px;
+}
+
+.paragraphs-item {
+  margin-right: 30px;
+}
+
+.paragraphs-item h5 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+
+  color: #212121;
+}
+
+.paragraphs-item span {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.company-logo {
+  display: flex;
+  background-color: #f5f4fa;
+  height: 120px;
+  width: 270px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  border-radius: 4px;
+}

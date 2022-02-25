@@ -1,0 +1,47 @@
+.WWD h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+
+.WWDpictures {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 94px;
+}
+
+.WWDpictures-desc {
+  position: relative;
+}
+
+.WWDpictures-desc-back {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+
+  background: rgba(47, 48, 58, 0.8);
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
