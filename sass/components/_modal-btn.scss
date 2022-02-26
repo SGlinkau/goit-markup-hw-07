@@ -7,14 +7,14 @@
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  fill: white;
-  background-color: white;
+  fill: $backgroundColor;
+  background-color: $backgroundColor;
   display: flex;
   float: right;
 }
 
 .closte-btn-ico {
-  fill: #000000;
+  fill: $colorBlack;
   height: 18px;
   width: 18px;
   position: absolute;

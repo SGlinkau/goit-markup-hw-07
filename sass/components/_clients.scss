@@ -31,8 +31,8 @@
 
   &:hover,
   &:focus {
-    border-color: #2196f3;
-    fill: #2196f3;
+    border-color: $colorBlue;
+    fill: $colorBlue;
     cursor: pointer;
   }
 }
