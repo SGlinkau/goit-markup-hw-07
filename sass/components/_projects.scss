@@ -11,7 +11,7 @@
 }
 
 .projects-list-item {
-  background: #ffffff;
+  background: $backgroundColor;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
 
@@ -36,7 +36,7 @@
   padding-left: 24px;
   padding-bottom: 4px;
 
-  color: #212121;
+  color: $colorBlack;
 }
 
 .projects-list-item h5 {
@@ -76,7 +76,7 @@
   line-height: 28px;
   letter-spacing: 0.03em;
 
-  color: #ffffff;
+  color: $backgroundColor;
 
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding-top: 49px;

@@ -1,5 +1,5 @@
 .ourteam {
-  background: #f5f4fa;
+  background: $secondarybackgroundColor;
 
   padding-top: 94px;
 }
@@ -13,7 +13,7 @@
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: $colorBlack;
 
   padding-bottom: 50px;
 }
@@ -35,7 +35,7 @@
 
   padding-top: 30px;
 
-  color: #212121;
+  color: $colorBlack;
 }
 
 .team h5 {
@@ -50,35 +50,14 @@
   padding-top: 10px;
   padding-bottom: 30px;
 
-  color: #757575;
+  color: $coloraccentGrey;
 }
 
-.Piotrek {
-  background: #ffffff;
-
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-
-.Zaneta {
-  background: #ffffff;
-
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-
-.Mariusz {
-  background: #ffffff;
-
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-
+.Piotrek,
+.Zaneta,
+.Mariusz,
 .Patryk {
-  background: #ffffff;
+  background: $backgroundColor;
 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -105,7 +84,7 @@
 
   &:hover,
   &:focus {
-    fill: #fff;
+    fill: $backgroundColor;
   }
 }
 
@@ -116,13 +95,13 @@
   width: 44px;
   height: 44px;
   margin-bottom: 30px;
-  background-color: #fff;
+  background-color: $backgroundColor;
   fill: #afb1b8;
   border-radius: 50%;
 
   &:hover,
   &:focus {
-    background-color: #2196f3;
-    fill: #fff;
+    background-color: $colorBlue;
+    fill: $backgroundColor;
   }
 }
