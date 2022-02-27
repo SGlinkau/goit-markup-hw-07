@@ -1,4 +1,4 @@
-.projects-list {
+.projects__list {
   width: 1200px;
   display: flex;
   justify-content: center;
@@ -10,7 +10,7 @@
   padding-bottom: 94px;
 }
 
-.projects-list-item {
+.projects__list-item {
   background: $backgroundColor;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
@@ -24,7 +24,7 @@
   }
 }
 
-.projects-list-item h4 {
+.projects__list-item h4 {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -39,7 +39,7 @@
   color: $colorBlack;
 }
 
-.projects-list-item h5 {
+.projects__list-item h5 {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -50,7 +50,7 @@
   padding-left: 24px;
   padding-bottom: 20px;
 
-  color: #757575;
+  color: $coloraccentGrey;
 }
 
 .wyjazd {
@@ -86,6 +86,6 @@
   opacity: 0.9;
 }
 
-.projects-list-item:hover .popup {
+.projects__list-item:hover .popup {
   transform: translateY(-100%);
 }

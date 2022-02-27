@@ -18,13 +18,13 @@
   padding-bottom: 50px;
 }
 
-.team {
+.ourteam__content {
   display: flex;
   justify-content: space-between;
   padding-bottom: 94px;
 }
 
-.team h4 {
+.ourteam__content h4 {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -38,7 +38,7 @@
   color: $colorBlack;
 }
 
-.team h5 {
+.ourteam__content h5 {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -53,10 +53,7 @@
   color: $coloraccentGrey;
 }
 
-.Piotrek,
-.Zaneta,
-.Mariusz,
-.Patryk {
+.ourteam__content-person {
   background: $backgroundColor;
 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -72,13 +69,13 @@
   margin-right: 32px;
 }
 
-.social-list-item {
+.social-list__item {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 
-.social-list-icon {
+.social-list__icon {
   width: 20px;
   height: 20px;
 
@@ -88,7 +85,7 @@
   }
 }
 
-.social-list-link {
+.social-list__link {
   display: flex;
   align-items: center;
   justify-content: space-around;

@@ -82,26 +82,26 @@ a {
   align-items: center;
 }
 
-.menu-nav {
+.menu__nav {
   flex: 2;
 }
 
-.menu-nav-list {
+.menu__nav-list {
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
 
-.menu-nav-list:first-child {
+.menu__nav-list:first-child {
   margin-left: 93px;
 }
 
-.menu-nav-item {
+.menu__nav-item {
   position: relative;
   margin-right: 46px;
 }
 
-.menu-nav-item::after {
+.menu__nav-item::after {
   position: absolute;
   content: "";
   display: block;
@@ -114,16 +114,16 @@ a {
   transition: width 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu-nav-item:hover::after {
+.menu__nav-item:hover::after {
   width: 100%;
   left: 0;
 }
 
-.menu-nav .active-link {
+.menu__nav .active-link {
   color: #2196f3;
 }
 
-.menu-nav .active-link::after {
+.menu__nav .active-link::after {
   position: absolute;
   content: "";
   display: block;
@@ -135,7 +135,7 @@ a {
   transition: width 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu-nav a {
+.menu__nav a {
   text-decoration: none;
   font-family: Roboto;
   font-style: normal;
@@ -146,7 +146,7 @@ a {
   color: #212121;
 }
 
-.menu-nav a:hover {
+.menu__nav a:hover {
   color: #2196f3;
 }
 
@@ -177,7 +177,7 @@ a {
   margin-right: 10px;
 }
 
-.button-port {
+.filters__list-button {
   margin-right: 8px;
   cursor: pointer;
   background: #f5f4fa;
@@ -194,21 +194,21 @@ a {
   color: #212121;
 }
 
-.button-port:hover {
+.filters__list-button:hover {
   background: #2196f3;
   color: #ffffff;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
 
-.filtry-list {
+.filters__list {
   display: flex;
   justify-content: center;
   margin-top: 94px;
   margin-bottom: 50px;
 }
 
-.projects-list {
+.projects__list {
   width: 1200px;
   display: flex;
   justify-content: center;
@@ -220,20 +220,20 @@ a {
   padding-bottom: 94px;
 }
 
-.projects-list-item {
+.projects__list-item {
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
 }
 
-.projects-list-item:hover, .projects-list-item:focus {
+.projects__list-item:hover, .projects__list-item:focus {
   filter: drop-shadow(1px 4px 6px rgba(0, 0, 0, 0.16));
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.06));
   filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.12));
   cursor: pointer;
 }
 
-.projects-list-item h4 {
+.projects__list-item h4 {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -246,7 +246,7 @@ a {
   color: #212121;
 }
 
-.projects-list-item h5 {
+.projects__list-item h5 {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -289,22 +289,25 @@ a {
   opacity: 0.9;
 }
 
-.projects-list-item:hover .popup {
+.projects__list-item:hover .popup {
   transform: translateY(-100%);
 }
 
 .footer {
   background: #2f303a;
+}
+
+.footer__content {
   display: flex;
   flex-direction: row;
 }
 
-.footer-left {
+.footer__content-left {
   margin-top: 60px;
   margin-bottom: 60px;
 }
 
-.footer-right {
+.footer__content-right {
   display: flex;
   margin-left: 70px;
   margin-top: 72px;
@@ -345,7 +348,7 @@ a {
   height: 80px;
 }
 
-.social-media-text {
+.social-media__text {
   font-family: Roboto;
   font-style: Bold;
   font-size: 14px;
@@ -358,28 +361,28 @@ a {
   margin-bottom: 20px;
 }
 
-.social-media-list {
+.social-media__list {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
 
-.social-media-list-item {
+.social-media__list-item {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
 }
 
-.social-media-list-icon {
+.social-media__list-icon {
   width: 20px;
   height: 20px;
 }
 
-.social-media-list-icon:hover, .social-media-list-icon:focus {
+.social-media__list-icon:hover, .social-media__list-icon:focus {
   fill: #fff;
 }
 
-.social-media-list-link {
+.social-media__list-link {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -391,7 +394,7 @@ a {
   border-radius: 50%;
 }
 
-.social-media-list-link:hover, .social-media-list-link:focus {
+.social-media__list-link:hover, .social-media__list-link:focus {
   background-color: #2196f3;
   fill: #fff;
 }

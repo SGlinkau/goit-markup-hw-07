@@ -1,15 +1,18 @@
 .footer {
   background: #2f303a;
+}
+
+.footer__content {
   display: flex;
   flex-direction: row;
 }
 
-.footer-left {
+.footer__content-left {
   margin-top: 60px;
   margin-bottom: 60px;
 }
 
-.footer-right {
+.footer__content-right {
   display: flex;
   margin-left: 70px;
   margin-top: 72px;
@@ -54,7 +57,7 @@
   height: 80px;
 }
 
-.social-media-text {
+.social-media__text {
   font-family: Roboto;
   font-style: Bold;
   font-size: 14px;
@@ -67,19 +70,19 @@
   margin-bottom: 20px;
 }
 
-.social-media-list {
+.social-media__list {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
 
-.social-media-list-item {
+.social-media__list-item {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
 }
 
-.social-media-list-icon {
+.social-media__list-icon {
   width: 20px;
   height: 20px;
 
@@ -89,7 +92,7 @@
   }
 }
 
-.social-media-list-link {
+.social-media__list-link {
   display: flex;
   align-items: center;
   justify-content: space-around;

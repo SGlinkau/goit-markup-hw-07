@@ -1,4 +1,4 @@
-.clients-text {
+.clients__text {
   font-family: Roboto;
   font-style: Bold;
   font-size: 36px;
@@ -12,13 +12,13 @@
   margin-bottom: 50px;
 }
 
-.clients-list {
+.clients__list {
   display: flex;
   align-items: left;
   justify-content: space-between;
 }
 
-.clients-list-logo {
+.clients__list-logo {
   display: flex;
   width: 170px;
   height: 92px;
