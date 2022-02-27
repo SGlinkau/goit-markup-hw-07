@@ -1,14 +1,14 @@
-.paragraphs {
+.paragraphs__list {
   display: flex;
   justify-content: space-around;
   padding-top: 94px;
 }
 
-.paragraphs-item {
+.paragraphs__list-item {
   margin-right: 30px;
 }
 
-.paragraphs-item h5 {
+.paragraphs__list-item h5 {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -21,7 +21,7 @@
   color: $colorBlack;
 }
 
-.paragraphs-item span {
+.paragraphs__list-item span {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;

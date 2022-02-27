@@ -5,11 +5,11 @@
   align-items: center;
 }
 
-.menu-nav {
+.menu__nav {
   flex: 2;
 }
 
-.menu-nav-list {
+.menu__nav-list {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -19,7 +19,7 @@
   }
 }
 
-.menu-nav-item {
+.menu__nav-item {
   position: relative;
   margin-right: 46px;
 
@@ -41,7 +41,7 @@
   }
 }
 
-.menu-nav .active-link {
+.menu__nav .active-link {
   color: $colorBlue;
 
   &::after {
@@ -57,7 +57,7 @@
   }
 }
 
-.menu-nav a {
+.menu__nav a {
   text-decoration: none;
 
   font-family: Roboto;
