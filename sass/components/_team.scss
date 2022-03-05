@@ -61,7 +61,7 @@
   border-radius: 0px 0px 4px 4px;
 }
 
-.social-list {
+.ourteam__social-list {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -69,13 +69,13 @@
   margin-right: 32px;
 }
 
-.social-list__item {
+.ourteam__social-list-item {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 
-.social-list__icon {
+.ourteam__social-list-icon {
   width: 20px;
   height: 20px;
 
@@ -85,7 +85,7 @@
   }
 }
 
-.social-list__link {
+.ourteam__social-list-link {
   display: flex;
   align-items: center;
   justify-content: space-around;
