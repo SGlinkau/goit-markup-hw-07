@@ -513,7 +513,7 @@ a {
   color: #757575;
 }
 
-.paragraphs_company-logo {
+.paragraphs__company-logo {
   display: flex;
   background-color: #f5f4fa;
   height: 120px;
