@@ -52,12 +52,12 @@
   }
 }
 
-.social-media {
+.footer__social-media {
   width: 206px;
   height: 80px;
 }
 
-.social-media__text {
+.footer__social-media-text {
   font-family: Roboto;
   font-style: Bold;
   font-size: 14px;
@@ -70,19 +70,19 @@
   margin-bottom: 20px;
 }
 
-.social-media__list {
+.footer__social-media-list {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
 
-.social-media__list-item {
+.footer__social-media-list-item {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
 }
 
-.social-media__list-icon {
+.footer__social-media-list-icon {
   width: 20px;
   height: 20px;
 
@@ -92,7 +92,7 @@
   }
 }
 
-.social-media__list-link {
+.footer__social-media-list-link {
   display: flex;
   align-items: center;
   justify-content: space-around;
