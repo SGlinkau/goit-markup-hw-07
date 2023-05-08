@@ -9,7 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=Festive&amp;family=Qahiri&amp;family=Raleway:wght@700&amp;family=Roboto:wght@400;500;700;900&amp;family=Rubik:wght@300&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="saas/main.css"/>
+    <link rel="stylesheet" href="css/main.min.css"/>
     <title>Studio</title>
 </head>
   
@@ -17,18 +19,18 @@
 <body>  
   
   <!--HEADER-->
-  <header class="section menu">
+  <header class="section header">
     <div class="container">
-      <nav class="menu-navigation">
-      <a href="index.html" class="logo"><span class="logo-accent-main">Web</span><span class="logo-accent-black">Studio</span></a>
-        <ul class="navigation">  
-          <li><a href="index.html" class="navigation-link navigation-link-active" id="link1">Agencja</a></li>
-          <li><a href="portfolio.html" class="navigation-link" id="link2">Portfolio</a></li>
-          <li><a href="index.html" class="navigation-link navigation-link-last" id="link3">Kontakt</a></li>
+      <nav class="menu">
+      <a href="index.html" class="logo"><span class="logo__accent--main">Web</span><span class="logo__accent--black">Studio</span></a>
+        <ul class="menu__navigation">  
+          <li><a href="index.html" class="menu__link menu__link--active" id="link1">Agencja</a></li>
+          <li><a href="portfolio.html" class="menu__link" id="link2">Portfolio</a></li>
+          <li><a href="index.html" class="menu__link menu__link--last" id="link3">Kontakt</a></li>
         </ul>
       <ul class="contacts">
-        <li class="contact-item"><a href="mailto:info@devstudio.com" class="contacts-link contacts-link-mail"><svg class="ico-email" width="16px" height="12px"><use href="images/sprite.svg#icon-envelope"></use></svg>info@devstudio.com</a></li>
-        <li class="contact-item"><a href="tel:+48111111111" class="contacts-link contacts-link-phone"><svg class="ico-phone" width="10px" height="16px"><use href="images/sprite.svg#icon-phone"></use></svg>+48 111 111 111</a></li>
+        <li><a href="mailto:info@devstudio.com" class="contacts__link contacts__link--mail"><svg class="ico-email" width="16px" height="12px"><use href="images/sprite.svg#icon-envelope"></use></svg>info@devstudio.com</a></li>
+        <li><a href="tel:+48111111111" class="contacts__link contacts__link--phone"><svg class="ico-phone" width="10px" height="16px"><use href="images/sprite.svg#icon-phone"></use></svg>+48 111 111 111</a></li>
       </ul>
     </nav>
     </div>
@@ -37,37 +39,37 @@
   <!--TREŚĆ GŁÓWNA-->
   <main>
     
-    <section class="section order-container">
-    <div class="container">
-      <h1 class="container-text">efektywne rozwiązania<br/>dla Waszego biznesu</h1>
-      <button type="button" class="order-button" data-modal-open>Zamów usługę</button>
+    <section class="section orderContainer">
+    <div class="container order">
+      <h1>efektywne rozwiązania<br/>dla Waszego biznesu</h1>
+      <button type="button" class="orderContainer__button" data-modal-open>Zamów usługę</button>
     </div>
     </section>
 
     <!-- Przewaga -->
     <div class="container">
-      <section class="section our-advantages">
-      <ul class="paragraphs">
-          <li class="paragraphs-item">
-              <div class="company-logo">
+      <section class="section ourAdvantages">
+      <ul class="ourAdvantages__list">
+          <li class="ourAdvantages__item">
+              <div class="ourAdvantages__item--logo">
                 <svg class="company-logo-antenna" width="70px" height="70px"><use href="images/sprite.svg#icon-antenna"></use></svg>
               </div>  
           <h2>LOREM IPSUM</h2>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</li>
-        <li class="paragraphs-item">
-            <div class="company-logo">
+        <li class="ourAdvantages__item">
+            <div class="ourAdvantages__item--logo">
               <svg class="company-logo-clock" width="70px" height="70px"><use href="images/sprite.svg#icon-clock"></use></svg>
             </div>
           <h2>LOREM IPSUM</h2>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</li>
-        <li class="paragraphs-item">
-            <div class="company-logo">
+        <li class="ourAdvantages__item">
+            <div class="ourAdvantages__item--logo">
               <svg class="company-logo-diagram" width="70px" height="70px"><use href="images/sprite.svg#icon-diagram"></use></svg>
             </div>
           <h2>LOREM IPSUM</h2>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</li>
-        <li class="paragraphs-item paragraphs-item-last">
-            <div class="company-logo">
+        <li class="ourAdvantages__item ourAdvantages__item--last">
+            <div class="ourAdvantages__item--logo">
               <svg class="company-logo-astronaut" width="70px" height="70px"><use href="images/sprite.svg#icon-astronaut"></use></svg>
             </div>
           <h2>LOREM IPSUM</h2>
@@ -80,10 +82,10 @@
     <section class="section offer">
     <div class="container">
     <h2>Czym się zajmujemy</h2>
-      <ul class="offer-list">
-      <li class="offer-list-item"><div class="offer-list-item-style"><img src="./images/US1.jpg" alt="Jedna usługa" width="370" height="294" id="us1"><div class="offer-list-description"><span class="offer-list-description-text">APLIKACJE KOMPUTEROWE</span></div></div></li>
-      <li class="offer-list-item"><div class="offer-list-item-style"><img src="./images/US2.jpg" alt="Druga usługa" width="370" height="294" id="us2"><div class="offer-list-description"><span class="offer-list-description-text">APLIKACJE MOBILNE</span></div></div></li>
-      <li class="offer-list-item offer-list-item-last"><div class="offer-list-item-style"><img src="./images/US3.jpg" alt="Trzecia usługa" width="370" height="294" id="us3"><div class="offer-list-description"><span class="offer-list-description-text">ROZWIĄZANIA GRAFICZNE</span></div></div></li>
+      <ul class="offer__list">
+      <li class="offer__item"><div class="offer__item--style"><img src="./images/US1.jpg" alt="Jedna usługa" width="370" height="294" id="us1"><div class="offer-list-description"><span class="offer-list-description-text">APLIKACJE KOMPUTEROWE</span></div></div></li>
+      <li class="offer__item"><div class="offer__item--style"><img src="./images/US2.jpg" alt="Druga usługa" width="370" height="294" id="us2"><div class="offer-list-description"><span class="offer-list-description-text">APLIKACJE MOBILNE</span></div></div></li>
+      <li class="offer__item"><div class="offer__item--style"><img src="./images/US3.jpg" alt="Trzecia usługa" width="370" height="294" id="us3"><div class="offer-list-description"><span class="offer-list-description-text">ROZWIĄZANIA GRAFICZNE</span></div></div></li>
       </ul>
     </div>
     </section>
@@ -92,59 +94,59 @@
     <section class="section team">
       <div class="container">
       <h2>Nasz zespół</h2>
-        <ul class="persons-list">
-          <li class="persons-list-item">
+        <ul class="team__list">
+          <li class="team__item">
             <img src="./images/P1.jpg" alt="Pracownik pierwszy" width="270" height="260">
-          <div class="persons-list-description">  
+          <div class="team__description">  
             <h4>John Doe</h4>
             <h5>Product Designer</h5>
-            <ul class="social-list">
-              <li class="social-list-item"><a href="#" class="social-list-link"><svg class ="social-list-icon"><use href="images/sprite.svg#icon-instagram"></use></svg></a></li>
-              <li class="social-list-item"><a href="#" class="social-list-link"><svg class ="social-list-icon"><use href="images/sprite.svg#icon-twitter"></use></svg></a></li>
-              <li class="social-list-item"><a href="#" class="social-list-link"><svg class ="social-list-icon"><use href="images/sprite.svg#icon-facebook"></use></svg></a></li>
-              <li class="social-list-item"><a href="#" class="social-list-link"><svg class ="social-list-icon"><use href="images/sprite.svg#icon-linkedin"></use></svg></a></li>
+            <ul class="team_socials">
+              <li class="social__item"><a href="#" class="social__link"><svg class ="social__icon"><use href="images/sprite.svg#icon-instagram"></use></svg></a></li>
+              <li class="social__item"><a href="#" class="social__link"><svg class ="social__icon"><use href="images/sprite.svg#icon-twitter"></use></svg></a></li>
+              <li class="social__item"><a href="#" class="social__link"><svg class ="social__icon"><use href="images/sprite.svg#icon-facebook"></use></svg></a></li>
+              <li class="social__item"><a href="#" class="social__link"><svg class ="social__icon"><use href="images/sprite.svg#icon-linkedin"></use></svg></a></li>
             </ul>
           </div>
           </li>
           
-          <li class="persons-list-item">
+          <li class="team__item">
             <img src="./images/P2.jpg" alt="Pracownik drugi" width="270" height="260">
-            <div class="persons-list-description">
+            <div class="team__description">
             <h4>John Doe</h4>
             <h5>Frontend Developer</h5>
-            <ul class="social-list">
-              <li class="social-list-item"><a href="#" class="social-list-link"><svg class ="social-list-icon"><use href="images/sprite.svg#icon-instagram"></use></svg></a></li>
-              <li class="social-list-item"><a href="#" class="social-list-link"><svg class ="social-list-icon"><use href="images/sprite.svg#icon-twitter"></use></svg></a></li>
-              <li class="social-list-item"><a href="#" class="social-list-link"><svg class ="social-list-icon"><use href="images/sprite.svg#icon-facebook"></use></svg></a></li>
-              <li class="social-list-item"><a href="#" class="social-list-link"><svg class ="social-list-icon"><use href="images/sprite.svg#icon-linkedin"></use></svg></a></li>
+            <ul class="team_socials">
+              <li class="social__item"><a href="#" class="social__link"><svg class ="social__icon"><use href="images/sprite.svg#icon-instagram"></use></svg></a></li>
+              <li class="social__item"><a href="#" class="social__link"><svg class ="social__icon"><use href="images/sprite.svg#icon-twitter"></use></svg></a></li>
+              <li class="social__item"><a href="#" class="social__link"><svg class ="social__icon"><use href="images/sprite.svg#icon-facebook"></use></svg></a></li>
+              <li class="social__item"><a href="#" class="social__link"><svg class ="social__icon"><use href="images/sprite.svg#icon-linkedin"></use></svg></a></li>
             </ul>
             </div>
           </li>
           
-          <li class="persons-list-item">
+          <li class="team__item">
             <img src="./images/P3.jpg" alt="Pracownik trzeci" width="270" height="260">
-            <div class="persons-list-description">
+            <div class="team__description">
             <h4>John Doe</h4>
             <h5>Marketing</h5>
-            <ul class="social-list">
-              <li class="social-list-item"><a href="#" class="social-list-link"><svg class ="social-list-icon"><use href="images/sprite.svg#icon-instagram"></use></svg></a></li>
-              <li class="social-list-item"><a href="#" class="social-list-link"><svg class ="social-list-icon"><use href="images/sprite.svg#icon-twitter"></use></svg></a></li>
-              <li class="social-list-item"><a href="#" class="social-list-link"><svg class ="social-list-icon"><use href="images/sprite.svg#icon-facebook"></use></svg></a></li>
-              <li class="social-list-item"><a href="#" class="social-list-link"><svg class ="social-list-icon"><use href="images/sprite.svg#icon-linkedin"></use></svg></a></li>
+            <ul class="team_socials">
+              <li class="social__item"><a href="#" class="social__link"><svg class ="social__icon"><use href="images/sprite.svg#icon-instagram"></use></svg></a></li>
+              <li class="social__item"><a href="#" class="social__link"><svg class ="social__icon"><use href="images/sprite.svg#icon-twitter"></use></svg></a></li>
+              <li class="social__item"><a href="#" class="social__link"><svg class ="social__icon"><use href="images/sprite.svg#icon-facebook"></use></svg></a></li>
+              <li class="social__item"><a href="#" class="social__link"><svg class ="social__icon"><use href="images/sprite.svg#icon-linkedin"></use></svg></a></li>
             </ul>
             </div>
           </li>
           
-          <li class="persons-list-item">
+          <li class="team__item">
             <img src="./images/P4.jpg" alt="Pracownik czwarty" width="270" height="260" onmouseover="this.src='./images/P4alt.jpg';" onmouseout="this.src='./images/P4.jpg';" >
-            <div class="persons-list-description">
+            <div class="team__description">
             <h4>John Doe</h4>
             <h5>UI Designer</h5>
-            <ul class="social-list">
-              <li class="social-list-item"><a href="#" class="social-list-link"><svg class ="social-list-icon"><use href="images/sprite.svg#icon-instagram"></use></svg></a></li>
-              <li class="social-list-item"><a href="#" class="social-list-link"><svg class ="social-list-icon"><use href="images/sprite.svg#icon-twitter"></use></svg></a></li>
-              <li class="social-list-item"><a href="#" class="social-list-link"><svg class ="social-list-icon"><use href="images/sprite.svg#icon-facebook"></use></svg></a></li>
-              <li class="social-list-item"><a href="#" class="social-list-link"><svg class ="social-list-icon"><use href="images/sprite.svg#icon-linkedin"></use></svg></a></li>
+            <ul class="team_socials">
+              <li class="social__item"><a href="#" class="social__link"><svg class ="social__icon"><use href="images/sprite.svg#icon-instagram"></use></svg></a></li>
+              <li class="social__item"><a href="#" class="social__link"><svg class ="social__icon"><use href="images/sprite.svg#icon-twitter"></use></svg></a></li>
+              <li class="social__item"><a href="#" class="social__link"><svg class ="social__icon"><use href="images/sprite.svg#icon-facebook"></use></svg></a></li>
+              <li class="social__item"><a href="#" class="social__link"><svg class ="social__icon"><use href="images/sprite.svg#icon-linkedin"></use></svg></a></li>
             </ul>
             </div>
           </li>
@@ -208,7 +210,7 @@
   <!-- STOPKA -->
   <footer class="section footer">
     <div class="container"> 
-    <a href="index.html" class="logo"><span>Web</span><span class="logo-accent-white">Studio</span></a>
+    <a href="index.html" class="logo"><span>Web</span><span class="logo__accent--white">Studio</span></a>
     <section class="footer-section">
     <address class="address">
       <ul class="footer-list"> 
