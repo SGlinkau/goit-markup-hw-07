@@ -8,12 +8,12 @@
     line-height: 1.192;
     letter-spacing: 0.03em;
     color: var(--brand-color);
-  }
-  
-  .logo__accent-black{
-    color: var(--default-text-color);
-  }
-  
-  .logo__accent-white{
-    color: var(--basic-white);
+
+    &__accent-black{
+      color: var(--default-text-color);
+    }
+
+    &__accent-white{
+      color: var(--basic-white);
+    }
   }

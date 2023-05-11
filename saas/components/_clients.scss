@@ -1,5 +1,6 @@
 
-.clients h4 {
+.clients {
+  & h4 {
     font-family: Roboto;
     font-style: Bold;
     font-size: 36px;
@@ -10,14 +11,14 @@
     letter-spacing: 3%;
     margin-bottom: 50px;
   }
-  
-  .clients__list {
+
+  &__list {
     display: flex;
     align-items: left;
     justify-content: space-between;
   }
-  
-  .clients__logo a{
+
+  &__logo a{
     display: flex;
     width: 170px;
     height: 92px;
@@ -37,3 +38,4 @@
     outline: none;
     }
   }
+}

@@ -1,16 +1,16 @@
 .menu {
     border-bottom: 1px solid #ececec;
     padding: 24px 0px 25px 0px;
-  }
-  
-  .menu__navigation{
-    display: flex;
-    align-items: center;
-  }
-  
-  .menu__list{
-    margin-left: 93px;
-    display: flex;
+
+    &__navigation{
+      display: flex;
+      align-items: center;
+    }
+
+    &__list{
+      margin-left: 93px;
+      display: flex;
+    }
   }
   
   .menu__link {
